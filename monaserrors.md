@@ -31,3 +31,4 @@ npm ERR!     C:\Users\thene\AppData\Roaming\npm-cache\_logs\2020-02-04T02_11_09_
 thene@monas-envy360 MINGW64 /c/source/Team-StockPot-GCProject/GC-stockpot-recipeapp (master)
 $ ng serve --o
 bash: /c/Users/thene/AppData/Roaming/npm/ng: Permission denied
+fix: deleted node folder and re-ran npm install and it works 
