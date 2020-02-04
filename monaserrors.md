@@ -84,4 +84,6 @@ Time: 4211ms
         5   templateUrl: './app.component.html',
                          ~~~~~~~~~~~~~~~~~~~~~~
         Error occurs in the template of component AppComponent.
+
+        Property GC-stockpot-recipeapp is not allowed.
     
