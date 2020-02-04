@@ -24,7 +24,6 @@
               "src/assets"
             ],
             "styles": [
-            
               "src/styles.css"
             ],
             "scripts": []
@@ -120,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GC-stockpot-recipeapp"
+    }
+  },
+  "defaultProject": "GC-stockpot-recipeapp",
+  "cli": {
+    "analytics": "f580e4fc-6098-4955-a2af-8f58dcb20442"
+  }
 }
