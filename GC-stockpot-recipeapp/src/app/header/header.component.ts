@@ -5,6 +5,6 @@ import { SelectorContext } from '@angular/compiler';
     templateUrl:'/header.component.html'
 
 })
-export class Header{
+export class HeaderComponent{
 
 }
