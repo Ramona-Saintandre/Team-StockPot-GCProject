@@ -1,1 +1,28 @@
-<h1>Team StockPot</h1>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- will be adding a route later in place of the # -->
+            <a href="#" class="navbar-brand">StockPot Recipe Book</a>
+        </div>
+        <div class="collapse navbar-collapse"></div>
+        <ul class="nav navbar-nav">
+            <li><a href="#"> Crock Pot Recipes </a></li>
+            <li><a href="#"> Insta Pot Recipes </a></li>
+            <li><a href="#"> Shopping List </a></li>
+        </ul>
+
+        <!-- directive will be added to make this a working dropdown so we can store on a server or fetch it from a server -->
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <!-- need code to make the dropdown arrow work, will be after the directive section  -->
+                <a href="#" class="dropdown-toggle"role="manage">Manage<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <!-- hold the items of the dropdown  -->
+                    <li><a href="#">Save Data</a></li>
+                    <li><a href="#">Fetch Data</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</nav>
