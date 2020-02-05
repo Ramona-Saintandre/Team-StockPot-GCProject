@@ -33,7 +33,9 @@ $ ng serve --o
 bash: /c/Users/thene/AppData/Roaming/npm/ng: Permission denied
 
 
-2/4/2020
+``` js 
+2 / 4 / 2020
+```
 
 Looks like today is error hell day 
 
@@ -88,4 +90,11 @@ Time: 4211ms
         Property GC-stockpot-recipeapp is not allowed.
 
         need to find out why I have two node module folders 
+
+       ``` js 
+ 2 / 5 / 2020
+```
+
+        
+        WARNING in AngularCompilerPlugin: Forked Type Checker exited unexpectedly. Falling back to type checking on main thread.
     
