@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SearchCriteriaComponent } from './search-criteria/search-criteria.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { FavoritepagesComponent } from './favoritepages/favoritepages.component';
+import { Header } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchCriteriaComponent,
     RecipeListComponent,
-    FavoritepagesComponent
+    FavoritepagesComponent,
+    Header
   ],
   imports: [
     BrowserModule,
