@@ -86,4 +86,6 @@ Time: 4211ms
         Error occurs in the template of component AppComponent.
 
         Property GC-stockpot-recipeapp is not allowed.
+
+        need to find out why I have two node module folders 
     
