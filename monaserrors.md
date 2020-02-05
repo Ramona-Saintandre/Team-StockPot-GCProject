@@ -31,4 +31,70 @@ npm ERR!     C:\Users\thene\AppData\Roaming\npm-cache\_logs\2020-02-04T02_11_09_
 thene@monas-envy360 MINGW64 /c/source/Team-StockPot-GCProject/GC-stockpot-recipeapp (master)
 $ ng serve --o
 bash: /c/Users/thene/AppData/Roaming/npm/ng: Permission denied
-fix: deleted node folder and re-ran npm install and it works 
+
+
+``` js 
+2 / 4 / 2020
+```
+
+Looks like today is error hell day 
+
+Unable to load schema from 'c:\projects\Team-StockPot-GCProject\GC-stockpot-recipeapp\node_modules\@angular\cli\lib\config\schema.json': ENOENT: no such file or directory, open 'c:\projects\Team-StockPot-GCProject\GC-stockpot-recipeapp\node_modules\@angular\cli\lib\config\schema.json'.
+
+[Warn  - 7:20:21 AM] Unhandled Rejection at: Promise [object Promise] reason:, TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+[Error - 7:20:22 AM] Request textDocument/formatting failed.
+  Message: Request textDocument/formatting failed with message: No parser could be inferred for file: c:\projects\Team-StockPot-GCProject\.gitignore
+  Code: -32603 
+
+  Finally got rid of the schema error message , by deleting the Node package, clearing the npm cache, and reinstalling everything 
+
+  npm uninstall -g angular-cli
+npm cache clean or npm cache verify (if npm &gt; 5)
+npm install -g @angular/cli@latest
+I am also running angular 9 now with this error message 
+
+  ERROR in src/app/app.component.html:1:1 - error NG8001: 'app-header' is not a known element:
+1. If 'app-header' is an Angular component, then verify that it is part of this module.
+2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+1 <app-header></app-header>
+  ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/app.component.ts:5:16
+    5   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2020-02-04T12:42:19.764Z - Hash: b1d9fe5ec3410b992959
+2 unchanged chunks
+chunk {main} main.js, main.js.map (main) 20.2 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.96 MB [initial] [rendered]
+Time: 4211ms
+: Compiled successfully.
+    
+    ERROR in src/app/app.component.html:1:1 - error NG8001: 'app-header' is not a known element:
+    1. If 'app-header' is an Angular component, then verify that it is part of this module.
+    2. If 'app-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+    
+    1 <app-header></app-header>
+      ~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/app.component.ts:5:16
+        5   templateUrl: './app.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AppComponent.
+
+        Property GC-stockpot-recipeapp is not allowed.
+
+        need to find out why I have two node module folders 
+
+       ``` js 
+ 2 / 5 / 2020
+```
+
+        
+        WARNING in AngularCompilerPlugin: Forked Type Checker exited unexpectedly. Falling back to type checking on main thread.
+    

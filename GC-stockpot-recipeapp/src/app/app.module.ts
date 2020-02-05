@@ -5,16 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component'
 import { SearchCriteriaComponent } from './search-criteria/search-criteria.component';
-import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { FavoritepagesComponent } from './favoritepages/favoritepages.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesItemComponent } from './recipes/recipes-list/recipes-item/recipes-item.component';
+import { RecipesDetailsComponent } from './recipes/recipes-details/recipes-details.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchCriteriaComponent,
-    RecipeListComponent,
+    SearchCriteriaComponent,    
     FavoritepagesComponent,
-    HeaderComponent
+    HeaderComponent,    
+    ShoppingListComponent,
+    ShoppingEditComponent,
+    RecipesComponent,    
+    RecipesItemComponent,
+    RecipesDetailsComponent,
+    
   ],
   imports: [
     BrowserModule,

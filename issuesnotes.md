@@ -25,6 +25,9 @@ b. recipeList  for the list of results
 c. favoritesPage  for   the favorites list route    
 17. Must have a good user experience on desktop browsers. <font color=#FFFF00>Mobile styling is not required</font>  
 
+GUYS - WE'RE USING A TEXT SEARCH, DIET LABELS, NUTRIENTS FOR SEARCH (3 CRITERIA, AS REQUIRED)
+
+
 [What 15 minutes APIOps Cycles Audit tells about your API?](https://medium.com/apiops/what-15-minutes-apiops-cycles-audit-tells-about-your-api-ef30e3eec8dahttps://www.youtube.com/watch?v=ZZDHnbk2NPI)  
 
 
