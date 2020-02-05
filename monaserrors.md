@@ -98,3 +98,10 @@ Time: 4211ms
         
         WARNING in AngularCompilerPlugin: Forked Type Checker exited unexpectedly. Falling back to type checking on main thread.
     
+new error:
+Refused to load the font '<URL>' because it violates the following Content Security Policy directive: "default-src 'none'". Note that 'font-src' was not explicitly set, so 'default-src' is used as a fallback. turned off Grammerly got rid of all but one error message 
+Refused to load the image 'http://localhost:4200/favicon.ico' because it violates the following Content Security Policy directive: "default-src 'none'". Note that 'img-src' was not explicitly set, so 'default-src' is used as a fallback.
+
+need to do more research :
+
+https://stackoverflow.com/questions/57433690/angular-8-refused-to-load-load-the-image-because-it-violates-the-following-conte
