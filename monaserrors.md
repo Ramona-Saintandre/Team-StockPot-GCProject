@@ -105,3 +105,41 @@ Refused to load the image 'http://localhost:4200/favicon.ico' because it violate
 need to do more research :
 
 https://stackoverflow.com/questions/57433690/angular-8-refused-to-load-load-the-image-because-it-violates-the-following-conte
+
+got it to compile but still with errors 
+
+ERROR in src/app/recipes/recipes.component.html:3:1 - error NG8001: 'app-recipes-list' is not a known element:
+1. If 'app-recipes-list' is an Angular component, then verify that it is part of this module.
+2. If 'app-recipes-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+3 <app-recipes-list></app-recipes-list>
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/recipes/recipes.component.ts:5:16
+    5   templateUrl: './recipes.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component RecipesComponent.
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2020-02-05T18:58:20.856Z - Hash: f8ee26cb40a210b186bb
+2 unchanged chunks
+chunk {main} main.js, main.js.map (main) 47.6 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 140 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.96 MB [initial] [rendered]     
+Time: 6325ms
+: Compiled successfully.
+    
+    ERROR in src/app/recipes/recipes.component.html:3:1 - error NG8001: 'app-recipes-list' is not a known element:
+    1. If 'app-recipes-list' is an Angular component, then verify that it is part 
+of this module.
+    2. If 'app-recipes-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' 
+to the '@NgModule.schemas' of this component to suppress this message.
+    
+    3 <app-recipes-list></app-recipes-list>
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/recipes/recipes.component.ts:5:16
+        5   templateUrl: './recipes.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component RecipesComponent.
