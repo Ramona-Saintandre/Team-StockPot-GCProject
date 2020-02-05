@@ -7,7 +7,7 @@ import { Recipe } from '../recipes.model'
 })
 export class RecipesListComponent implements OnInit {
 recipes: Recipe[] = [
-  new Recipe('a test recipe','This is to test the list','https://www.flickr.com/photos/67238971@N04/7375181062','crockpot')
+  new Recipe('a test recipe','This is to test the list','https://www.callmepmc.com/wp-content/uploads/2019/01/Slow-Cooker-Crack-Chicken-Recipe-AMAZING.jpg','crockpot')
 ];
   constructor() { }
 

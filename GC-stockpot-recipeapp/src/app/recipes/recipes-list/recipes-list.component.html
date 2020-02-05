@@ -11,11 +11,15 @@
 
                 <!-- recipe name, Recipe Description, img src will be filled with dynamic data later -->
 
-                <h4 class="list-group-item-heading">Recipe Name</h4>
-                <p class="list-group-item-text">Recipe Description</p>
+                <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+                <p class="list-group-item-text">Recipe {{ recipe.description }}</p>
+                <p class="list-group-item-text">Recipe {{ recipe.classification}}</p>
             </div>
                 <span class="pull-right">
-                    <img src="" alt="placeholder" class="img-responsive" style= "max-height: 50px;">
+                    <img src="recipe.imagePath" 
+                    alt="{{recipe.name}}" 
+                    class="img-responsive" 
+                    style= "max-height: 50px;">
                 </span>            
         </a>
         <app-recipes-item></app-recipes-item>
