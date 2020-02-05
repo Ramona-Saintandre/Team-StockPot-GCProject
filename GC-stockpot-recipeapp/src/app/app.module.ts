@@ -8,6 +8,7 @@ import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { FavoritepagesComponent } from './favoritepages/favoritepages.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     FavoritepagesComponent,
     HeaderComponent,
     RecipesComponent,
+    RecipesListComponent,
     
   ],
   imports: [
