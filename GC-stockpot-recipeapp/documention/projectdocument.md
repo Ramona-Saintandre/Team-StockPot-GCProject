@@ -32,7 +32,7 @@ Create an upvote, and then it will be redirected to the favoritepage component
 
 
 
-   **<font color=#ff4000>Recipes-items</font>**
+   **<font color=#ff4000>Recipes-items</font>**  
 
 
 
@@ -40,7 +40,7 @@ Create an upvote, and then it will be redirected to the favoritepage component
 
 
 
-## <font color=#6f3e37>Searh-criteria</font>
+## <font color=#6f3e37>Searh-criteria</font>  
 
 
 
@@ -48,21 +48,21 @@ Create an upvote, and then it will be redirected to the favoritepage component
 
 
 
-## <font color=#9900cc>Shopping-List</font>
+## <font color=#9900cc>Shopping-List</font>  
 
 
 
 
 
 
-   **<font color=#bf00ff>shopping-edit</font>**
+   **<font color=#bf00ff>shopping-edit</font>**   
 
 
 
 
 
 
-## <font color=#000099>Shared Components</font>
+## <font color=#000099>Shared Components</font>   
 
 
 
