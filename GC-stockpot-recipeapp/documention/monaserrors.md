@@ -143,3 +143,40 @@ to the '@NgModule.schemas' of this component to suppress this message.
         5   templateUrl: './recipes.component.html',
                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
         Error occurs in the template of component RecipesComponent.
+
+
+        ________________________________________
+
+
+        ## REPO RESOURCE 
+https://github.com/MartaNiemiec/Recipe-Book/tree/master/src/app
+
+https://github.com/IngeborgSlegers/angular-udemy-course/tree/master/src/app
+
+https://github.com/VisserSanne/Angular8-TheCompleteGuide/tree/master/RecipeIngredientsApp/src/app
+
+https://github.com/khins/shopping-list-app/tree/master/src/app
+
+https://github.com/NmiDev/recipes_book/tree/master/src/app
+
+https://github.com/soulyana/angular-training-ngrx/tree/master/src/app
+
+https://github.com/nofaralfasi/Recipe-Book-App-Angular-Project
+
+https://github.com/WillReichl/angular-course-project/tree/master/src/app
+
+https://github.com/NmiDev/recipes_book/tree/master/src/app 
+
+https://github.com/jeffpball/AngularApp_Recipe-list/tree/master/src/app
+
+___________________________
+## README 
+___________________________
+[adding images](https://www.youtube.com/watch?v=R6euByfGaN4&t=136s)
+[Learning GitHub - How to Write MarkDown](https://www.youtube.com/watch?v=eJojC3lSkwg&t=4s)
+[Github Readme tutorials list](https://www.youtube.com/results?search_query=github+readme+image&sp=eAE%253D)
+
+
+
+
+
