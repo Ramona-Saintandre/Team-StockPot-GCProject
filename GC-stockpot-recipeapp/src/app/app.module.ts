@@ -11,6 +11,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipesItemComponent } from './recipes/recipes-list/recipes-item/recipes-item.component';
 import { RecipesDetailsComponent } from './recipes/recipes-details/recipes-details.component';
+import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { RecipesDetailsComponent } from './recipes/recipes-details/recipes-detai
     RecipesComponent,    
     RecipesItemComponent,
     RecipesDetailsComponent,
+    RecipesListComponent
     
   ],
   imports: [
