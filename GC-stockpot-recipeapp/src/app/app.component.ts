@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GC-stockpot-recipeapp';
+
+  loadedFeature = 'crock-pot-recipes';
+
+  onNavigate(feature: string) {
+
+    this.loadedFeature = feature;
+
+  }
 }
