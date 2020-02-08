@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One:regular,700,900);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .navbar-collapse{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: auto;
+background-color: blueviolet;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(11, 11, 59);
+    padding: 5rem;
+    font-size: 12rem;
+    text-align: center;
+    font-family: 'Passion One','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
