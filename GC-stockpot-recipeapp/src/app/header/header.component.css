@@ -5,6 +5,8 @@
     box-sizing: border-box;
     font-family: 'Passion One','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
  .navbar-collapse{
 display: flex;
 flex-direction: row;
