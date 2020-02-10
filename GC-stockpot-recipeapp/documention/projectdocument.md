@@ -25,21 +25,19 @@ _<font color=#ffe680>Recipes-list</font> <br><br><br><br><br>
 ---
 
 ## File Structure <br>
+# app.recipes  
+**app.component.html**   
+`<app-header><app-header>`  
+`<app-recipes><app-recipes>`  
+`<app-shopping-list><app-shopping-list>`  
 
-**app.component.html** -
-`<app-header>`
-`<app-recipes>`
-`<app-shopping-list>`
+**app-recipes-list**   
+`<app-recipes-list><app-recipes-list>` ,html   
+`<app-recipes-details><app-recipes-details>` .html   
+  
 
-**app-recipes-list** -
-`<app-recipes-list>`
-`<app-recipes-details>`
-
-**app-recipes-list** -
-`<app-recipes-item>`
-
-**shopping,list.html** -
-`<shopping.edit>`
+**shopping,list.html**   
+`<shopping.edit><shopping.edit>`  
 
 ---
 
