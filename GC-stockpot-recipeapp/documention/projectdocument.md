@@ -55,3 +55,7 @@ _<font color=#ffe680>Recipes-list</font> <br><br><br><br><br>
 
 https://dev.to/scottydocs/how-to-write-a-kickas
 https://www.npmjs.com/package/readme-md-generator
+
+2/7/2020
+
+need to delete recipe-list from recipes.component.html and see if it breaks t

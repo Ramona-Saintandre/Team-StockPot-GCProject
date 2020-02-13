@@ -144,7 +144,9 @@ to the '@NgModule.schemas' of this component to suppress this message.
                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
         Error occurs in the template of component RecipesComponent.
 
-
+**2/7/2020**  
+ERROR in ./src/polyfills.ts
+Module not found: Error: Can't resolve 'zone.js/dist/zone' in 'C:\source\Team-StockPot-GCProject\GC-stockpot-recipeapp\src'
         ________________________________________
 
 

@@ -2,13 +2,13 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <!-- will be adding a route later in place of the # -->
-            <a href="#" class="navbar-brand">StockPot Recipe Book</a>
+            <a href="#" class="navbar-brand">Best Meat Eats</a>
         </div>
         <div class="collapse navbar-collapse"></div>
         <ul class="nav navbar-nav">
-            <li><a href="#"> Crock Pot Recipes </a></li>
-            <li><a href="#"> Insta Pot Recipes </a></li>
-            <li><a href="#"> Shopping List </a></li>
+            <li><a href="#" (click) = "onSelect('crock-pot-recipes')"> Recipes </a></li>
+            <!-- <li><a href="#"(click) = "onSelect('insta-pot-recipes')"> Insta Pot Recipes </a></li> -->
+            <li><a href="#" (click) = "onSelect('shopping-list')"> Shopping List </a></li>
         </ul>
 
         <!-- directive will be added to make this a working dropdown so we can store on a server or fetch it from a server -->
